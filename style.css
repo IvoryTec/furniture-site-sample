@@ -251,10 +251,15 @@ img {
 
 /* Media Queries */
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
+    .navbar .container {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+    }
     .section-1 .container {
         text-align: center;
     }
+
 
     .section-2-inner h2 {
         font-size: 3.5rem;
